@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="stylesheet" href="principal.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens</title>
 </head>
 <body>
+  <h1>Imagens</h1>
+  <p>A tag &lt;picture&gt; envolve as diferentes fontes de imagem (&lt;source&gt;) e a imagem padrão (&lt;img&gt;).</p>
+  <p>&lt;source&gt; é usado para especificar diferentes fontes de imagem com base no tipo de arquivo e fornece a melhor opção para o navegador. <br>
+  ex: &lt;source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png"&gt;  <br>
+  source media="(max-width:750px)"=isso especifica a condição de mídia que a fonte de imagem deve atender para ser considerada. Neste caso, a condição é definida para telas com uma largura máxima de 750 pixels. <br>
+  srcset="imagens/foto-p.png"=Este atributo especifica o caminho para a imagem a ser utilizada se a condição de mídia especificada for atendida. Neste caso, "imagens/foto-p.png" é o caminho para a imagem em formato PNG. <br>
+  type="image/png"=Este é o tipo da imagen.
+  </p>
   <picture>
-    
     <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
     <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
 <img src="imagens/foto-g.png" alt="imagen grande">
