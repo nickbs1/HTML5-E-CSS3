@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="principal.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semântica na HTML5</title>
 </head>
 <body>
     <h1>Negrito e italico</h1>
-    <p>para colocar em negrito <strong>termo em negrito</strong></p>
-    <p>para colocar em italico <em>termo em italico</em></p>
-    
+    <p>para colocar em negrito &lt;strong&gt; &lt;/strong&gt; <br> ex:<strong>termo em negrito</strong></p>
+
+    <p>para colocar em italico &lt;em&gt; &lt;/em&gt; <br> ex:<em>termo em italico</em></p>
+    <hr>
+
     <h2>formatações adicionais</h2>
-    <p>texto marcado <mark>texto marcado</mark></p>
-    <p>texto sublinhado <ins>texto sublinhado</ins></p>
-    <p>x <sup>2</sup> + 2 <br> H<sub>2</sub>O</p>
-    
-    <bdo dir="ltr">nomes invertidos</bdo>
-    <bdo dir="rtl"> <br>nomes invertidos</bdo>
+    <p>texto marcado &lt;mark&gt; &lt;/mark&gt; <br>  ex:<mark>texto marcado</mark></p>
+    <p>texto sublinhado &lt;ins&gt; &lt;/ins&gt; <br>  ex:<ins>texto sublinhado</ins></p>
+    <hr>
+
+    <p>outras formatações x &lt;sup&gt; 2 &lt;/sup&gt;+2 <br>  ex:  x <sup>2</sup> + 2 
+        <br> H&lt;sub&gt;2 &lt;sub&gt;O <br>  ex: H<sub>2</sub>O</p>
+        <hr>
+    <p>tag=&lt;bdo dir="ltr"&gt;dentro de bdo tem dir=que pede a direção se escolher ltr e da esquerda pra direita&lt;/bdo&gt; <br>  ex:<bdo dir="ltr">nomes invertidos</bdo> <br> mais se escolher a direção= dir="rtl" e da direita para esquerda ex:<bdo dir="rtl"> <br>nomes invertidos</bdo></p>
   
     <pre>
 
@@ -29,7 +34,8 @@
     
 <blockquote>a tag blockquote é ultilizada para referenciar citações </blockquote>
 
-<p>abreviações a <br><strong><abbr title="Linguagem de marcação de hipertexto">html</abbr><br><abbr title="Folha de Estilo em Cascatas">css</abbr></strong> </p>
+<p> &lt;abbr title="o que significa a palavra abrevida"&gt;palavra &lt;/abbr&gt;
+    <br> ex:abreviações <br><strong><abbr title="Linguagem de marcação de hipertexto">html</abbr><br><abbr title="Folha de Estilo em Cascatas">css</abbr></strong> </p>
     
 </body>
 </html>
