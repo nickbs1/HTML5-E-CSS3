@@ -1,0 +1,33 @@
+body{
+background-color: black;
+color: wheat;
+}
+h1{
+    height: 42px;
+    width: 231px;
+background-color: darkblue
+;    
+}
+h2{
+    height: 150 px;
+    width: 150px;
+    background-color: darkgreen;
+
+border-width: 10px;
+border-style: solid;
+border-color: limegreen;
+
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 15px;
+margin-right: 15px;
+
+outline-width: 15px;
+outline-style: dashed;
+outline-color: lightblue;
+}

@@ -4,4 +4,27 @@ color: white;
 }
 a{
  color: wheat;   
+text-decoration: none;
+/*text-decoration: none; neste caso tirei a linha em baixo do link*/
+}
+
+a:visited{
+color: coral;
+/*pseudoclasse visited é quando um link ja foi visitado no caso quando o link ja foi visitado ele ficara com essa cor*/
+}
+a:hover{
+text-decoration: underline;
+color: wheat;
+/*pseudoclasse neste caso text-decoration: underline; toda vez que passar o mouse no link aparece uma linha em baixo*/
+
+}
+ol{
+    color: wheat;
+
+}
+a::after{
+    content: '     ==>';
+    color: darkorange;
+
+    /*psudoelemento neste caso vai ser colocado algo depois ds links*/
 }

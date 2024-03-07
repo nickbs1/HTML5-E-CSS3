@@ -1,0 +1,21 @@
+div{
+display: inline-block;
+border: 1px solid black;
+text-align: center;
+height: 150px;
+width: 150px;
+background-color: lightgray;
+
+}
+div:hover{
+background-color: blue;
+
+}
+.c1 > p{
+    display: none;
+}
+.c1:hover > p{
+display: block;
+color: white;
+
+}
