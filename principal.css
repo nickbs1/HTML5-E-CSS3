@@ -28,3 +28,13 @@ a::after{
 
     /*psudoelemento neste caso vai ser colocado algo depois ds links*/
 }
+footer{
+background-color: wheat;
+color: darkblue;
+width: 98px;
+height: 23px;
+
+}
+.i1{
+text-align: center;
+}
